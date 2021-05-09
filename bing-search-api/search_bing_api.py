@@ -20,8 +20,8 @@ if not API_KEY:
     print("Please set BING_IMG_SEARCH_API_KEY")
     quit()
 
-MAX_RESULTS = 250
-GROUP_SIZE = 50
+MAX_RESULTS = 300
+GROUP_SIZE = 100
 
 URL = "https://api.cognitive.microsoft.com/bing/v7.0/images/search"
 
